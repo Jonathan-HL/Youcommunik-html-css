@@ -58,3 +58,31 @@ section div{
    flex: 1;  
 }
 /* ------------- FIN section 1 ---------- */
+.sc2{
+    background-color:rgb(1, 63, 63);
+    color: white;
+    padding: 30px;
+}
+.acoter{
+    display: flex;
+}
+.aligner{
+    text-align: center;
+    display: flex;
+}
+.acoter div:first-of-type{
+    text-align: center;
+}
+.acoter img{
+    width: 100px;
+}
+.acoter h2{
+   font-size: xx-large;
+}
+.aligner img{
+    width: 150px;
+}
+.aligner button{
+    height: 40px;
+    width: 150px;
+}
