@@ -1,0 +1,46 @@
+body{
+    margin: 0 15%;
+    box-shadow: 0 0 50px;
+}   
+/* ---------- debut HEADER ------------ */
+header{
+    background-color: black;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+header .logo{
+    flex: 1;
+}
+img[alt="LogoYK"]{
+    width: 200px;
+}
+header ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header ul a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+header ul span {
+    margin-top: 13px;
+    font-size: 10px;
+}
+header li {
+    padding: 0 10px;
+}
+img[alt="banner-home"]{
+   width: 100%;
+}
+/* ------------- FIN HEADER ---------- */
