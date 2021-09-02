@@ -58,6 +58,7 @@ section div{
    flex: 1;  
 }
 /* ------------- FIN section 1 ---------- */
+/* ------------- debut section 2 ---------- */
 .sc2{
     background-color:rgb(1, 63, 63);
     color: white;
@@ -86,3 +87,15 @@ section div{
     height: 40px;
     width: 150px;
 }
+/* ------------- FIN section 2 ---------- */
+/* ------------- debut section 3 ---------- */
+.sc3{
+    padding: 30px;
+}
+.sc3 .aligner button{
+    background-color: rgb(1, 63, 63);
+    color: white;
+    height: 40px;
+    width: 150px;
+}
+/* ------------- FIN section 3 ---------- */
