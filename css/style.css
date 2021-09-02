@@ -55,7 +55,7 @@ img[alt="Logoabout"]{
     width: 200px;
 }
 section div{
-   flex: 1;  
+   flex: 1; 
 }
 /* ------------- FIN section 1 ---------- */
 /* ------------- debut section 2 ---------- */
@@ -103,9 +103,11 @@ section div{
 footer{
     background-color: black;
     width: 100%;
-    height: 250px;
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+}
+footer div{
+    flex: 1;
 }
 footer p{
     color: white;
@@ -122,3 +124,32 @@ footer span{
     align-self: flex-end;
 }
 /* ------------- fin Footer ---------- */
+@media screen and (max-width : 600px) { 
+    body{
+        margin: 0;
+    }
+    header nav{
+        
+        flex-direction: column;
+      
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ .aligner{
+     flex-direction: column;
+ }
+ .acoter{
+     flex-direction: column;
+ }
+ section:first-of-type{
+     flex-direction: column;
+ }
+footer {
+    flex-direction: column;
+}
+img[alt="Logoabout"]{
+    width: 100%;
+}
+}
