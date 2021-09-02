@@ -44,3 +44,17 @@ img[alt="banner-home"]{
    width: 100%;
 }
 /* ------------- FIN HEADER ---------- */
+/* ------------- debut section 1 ---------- */
+section:first-of-type{
+    display: flex;
+   text-align: center;
+   padding: 50px;
+   
+}
+img[alt="Logoabout"]{
+    width: 200px;
+}
+section div{
+   flex: 1;  
+}
+/* ------------- FIN section 1 ---------- */
