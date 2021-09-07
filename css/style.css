@@ -128,28 +128,32 @@ footer span{
     body{
         margin: 0;
     }
-    header nav{
-        
-        flex-direction: column;
-      
+    header nav,.aligner,.acoter,section:first-of-type,footer{    
+        flex-direction: column; 
     }
     nav ul{
         display: flex;
         flex-wrap: wrap;
     }
- .aligner{
-     flex-direction: column;
- }
- .acoter{
-     flex-direction: column;
- }
- section:first-of-type{
-     flex-direction: column;
- }
-footer {
-    flex-direction: column;
+    img[alt="Logoabout"]{
+        width: 100%;
+    }
 }
-img[alt="Logoabout"]{
-    width: 100%;
-}
+
+@media screen and (min-width : 620px) and (max-width : 1024px) {
+    body{
+        margin: 0;
+    }
+    header nav,.aligner,.acoter,section:first-of-type,footer{    
+        flex-direction: column; 
+        text-align: center;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img[alt="Logoabout"]{
+        width: 100%;
+    }
+    
 }
